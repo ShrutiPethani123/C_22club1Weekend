@@ -136,6 +136,56 @@ void main()
     .
     5 * 10 = 50
 
+3. Take one number form user and count digit of that number.
+
+    n = 2342 
+    digit- 4
+
+4. find first and last digit of number.
+
+    n = 764573
+    first - 7
+    last - 3
+
+5. print sum of digit of number.
+
+    n= 2231
+    sum = 2+2+3+1 = 8
+
+6. print reverse of number.
+
+    n= 2231
+    rev = 1322
+
+7. check number is palindrom or not.
+
+    palinrom - 12321 , 121, 666 ,9
+    not palinrom - 46236 ,65347 
+
+8. Check number is armstrong number.
+
+    123 -> 1^3 + 2^3 + 3^3 = 1+8+27 = 36   123!=36 -> no
+    153 -> 1+125+27 = 153 -> yes
+
+    5
+    len=1
+    5^1 = 5
+
+
+    1634 = 1+ 1296 + 81 + 256 = 1634;
+
+9. find factorial of number.
+
+    5 - 5*4*3*2*1 = 120
+
+
+10. find factor of user given number.
+
+    n = 12 -> 1 2 3 4 6 12
+    n = 15 -> 1 3 5 15 
+
+
+
 
 
 */
