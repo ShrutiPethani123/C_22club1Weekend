@@ -184,9 +184,64 @@ void main()
     n = 12 -> 1 2 3 4 6 12
     n = 15 -> 1 3 5 15 
 
+11. check number is perfect number or not ?
 
+    n - 6 (1 2 3 6) -> 1+2+3 = 6
 
+    6, 28 , 496, 8128
 
+12. Take 5 number from user and print sum of that 5 number.
+
+    1 3 2 4 5 -> 15
+
+13. Take 10 number from user and print that number. if number is divisible by 7 then stop to taking number from user
+
+    input- 3
+    3
+    input- 4
+    4
+    input- 8
+    8
+    input- 49
+    stop
+
+13. Take 10 number from user and print that number. if number is divisible by 7 then stop to taking number from user
+
+    input- 3
+    3
+    input- 4
+    4
+    input- 8
+    8
+    input- 49
+    input- 4
+    4
+    input- 6
+    6
+    input- 14
+    input- 5
+    5
+
+14. Take two number from user and print HCF of two number.
+
+    12 - 1 2 3 4 6 12
+    6 - 1 2 3 6
+    hcf-6
+
+    5 - 1 5 
+    4 - 1 2 4
+    hcf-1
+
+15. Take two number from user and print LCM of two number.
+
+    12 - 12 24 36 48 60
+    6 - 6 12 18 24 30
+    lcm:12
+
+    5 - 5 10 15 20 25 30
+    4 - 4 8 12 16 20
+    lcm:20
+    
 
 */
 
