@@ -31,7 +31,8 @@ void main()
             lcm=i;
             break;
         }
-        i+=max;
+        // i+=max;
+        i=i+max;
         count++;
    
     }
