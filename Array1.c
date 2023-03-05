@@ -71,6 +71,43 @@ void main()
     odd[]  - 7 1 3 5
     even[] - 4 8 2 6
 
+8. Take one array from user and search element into array.
+
+    a - 8 5 6 3 1
+
+    ele: 5 -> present at location 2
+    ele: 9 -> not found
+
+9. Take one array from user and insert element in array.
+
+    a - 8 5 6 3 1
+
+    ind: 4
+    el: 9
+
+    o/p : 8 5 6 3 9 1
+
+    n-5
+    a[n+1]
+
+10. Take two array from user and perform user given operation
+
+    a - 4 5 7 8 6
+    b - 2 3 6 
+
+    -> size not same
+
+    a - 2 4 5 8 6
+    b - 2 3 5 6 4
+
+    1. Add
+    2. sub
+    3. mul
+    4. div
+    5. exit
+
+    1. c - 4 7 10 14 10
+
 
 
 */
