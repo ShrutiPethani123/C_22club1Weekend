@@ -24,7 +24,7 @@ a[60] = Garbage value
 
 void main()
 {
-    int a[5]={4,89,75,63,14};
+    // int a[5]={4,89,75,63,14};
 
     // printf("\n%d",a[2]);
     // printf("\n%d",a[4]);
@@ -33,10 +33,10 @@ void main()
     // printf("\n%d",a[5]);
 
 
-    for(int i=0;i<5;i++)
-    {
-        printf("%d ",a[i]);
-    }
+    // for(int i=0;i<5;i++)
+    // {
+    //     printf("%d ",a[i]);
+    // }
     int b[6];
 
     for(int i=0;i<6;i++)
@@ -47,6 +47,21 @@ void main()
 
     printf("\n");
     for(int i=0;i<6;i++)
+    {
+        printf("%d ",b[i]);
+    }
+
+    int n;
+    printf("Enter index:");
+    scanf("%d",&n);
+
+    for(int i=n;i<6;i++)
+    {
+        b[i]=b[i+1];
+    }
+
+    printf("\n");
+    for(int i=0;i<5;i++)
     {
         printf("%d ",b[i]);
     }
@@ -108,6 +123,35 @@ void main()
 
     1. c - 4 7 10 14 10
 
+11. Take one array from user and delete one element given by user.
 
+    a - 4 7 8 9 6 5
+
+    inx: 2
+    a - 4 7 9 6 5
+
+11. Take one array from user and delete one element given by user.
+
+    a - 4 7 8 9 6 5
+
+    ele: 7
+    a - 4 8 9 6 5
+
+12. count the frequncy of each element in array.
+
+
+    a - 1 2 3 1 4 5 1 6 5
+
+    1 - 3 times
+    2 - 1 times
+    3 - 1 times
+    4 - 1 times
+    5 - 2 times
+    6 - 1 times 
+
+13. sort the array.
+ 
+      a -  4 3 9 5 6 12
+      o/p: 3 4 5 6 9 12
 
 */

@@ -27,7 +27,7 @@ void main()
     printf("\nEnter element: ");
     scanf("%d",&ele);
 
-    for(int i=n;i>=idx;i--)
+    for(int i=n;i>idx;i--)
     {
         b[i]=b[i-1];
     }
