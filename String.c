@@ -43,6 +43,7 @@ void main()
 }
 
 /*
+
 1. Take one string from user and print length of that string without using inbult function.
 
 2. Take one string from user and count total number of vowels and consonant.
